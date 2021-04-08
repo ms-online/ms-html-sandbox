@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>div和span，class和id</title>
+    <style>
+      .card {
+        border: 1px solid #ccc;
+        background: #f4f4f4;
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .enhance {
+        color: yellow;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main-header" class="card">
+      <h1>我的博客</h1>
+      <p>欢迎来到我的网站</p>
+    </div>
+    <ul id="main-nav">
+      <li><a href="#">主页</a></li>
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#">联系我们</a></li>
+    </ul>
+    <div id="about" class="card">
+      <h3>关于我们</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, nisi
+        adipisci quo
+        <span class="enhance"
+          >libero nobis a cumque quisquam laborum dolore dolorem</span
+        >
+        non hic tenetur. Neque, facilis? Ex nostrum praesentium ullam accusamus!
+      </p>
+    </div>
+    <div id="contact" class="card">
+      <h3>联系我们</h3>
+      <ul>
+        <li>地址：成都市武侯区人民南路一段</li>
+        <li>电话：12345678</li>
+        <li>邮箱：me@test.com</li>
+      </ul>
+    </div>
+    <div id="main-footer">
+      <p>Copyright &copy; 2021</p>
+    </div>
+  </body>
+</html>
